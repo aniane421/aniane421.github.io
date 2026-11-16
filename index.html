@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio d'Amadou Niane, étudiant en Mathématiques-Informatique à l'Université de Lille. Développement web, réseaux et administration système Linux.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Amadou Niane — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#accueil"><span class="brand-mark">AN</span><span>Amadou Niane</span></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#apropos">À propos</a><a href="#competences">Compétences</a><a href="#projets">Projets</a><a href="#parcours">Parcours</a><a class="nav-contact" href="#contact">Me contacter ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="hero-copy">
+        <div class="availability"><span></span> Étudiant en Mathématiques-Informatique</div>
+        <p class="eyebrow">PORTFOLIO · 2026</p>
+        <h1>Construire, comprendre<br>et <span class="gradient-text">sécuriser</span> le numérique.</h1>
+        <p class="hero-lead">Je suis Amadou Niane, étudiant en Mathématiques-Informatique à l’Université de Lille. Je développe mes compétences en développement web, réseaux et administration système Linux à travers des projets concrets et un apprentissage continu.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projets">Découvrir mes projets <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Me contacter</a>
+        </div>
+        <div class="hero-meta"><span>📍 Lille, France</span><span>⌘ Développement · Systèmes · Réseaux</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="profile-card">
+          <div class="terminal-top"><i></i><i></i><i></i><span>amadou@portfolio: ~</span></div>
+          <div class="terminal-body">
+            <p class="muted"># Quelques mots sur moi</p>
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="output">Étudiant en informatique</p>
+            <p><span class="prompt">$</span> interests --list</p>
+            <p class="output">Développement web</p><p class="output">Administration Linux</p><p class="output">Réseaux & sécurité</p>
+            <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+          </div>
+          <div class="card-footer"><span>APPRENDRE</span><span>CONSTRUIRE</span><span>PROGRESSER</span></div>
+        </div>
+        <div class="floating-tag tag-top"> <span>⌘</span> Linux & systèmes</div>
+        <div class="floating-tag tag-bottom"><span>✳</span> Full-stack web</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="apropos">
+      <div class="section-heading"><p class="eyebrow">01 / À PROPOS</p><h2>Un profil curieux,<br><span class="gradient-text">orienté pratique.</span></h2></div>
+      <div class="about-content">
+        <p class="about-intro">Mon objectif est de développer une base solide en informatique, en reliant la programmation, les systèmes et les réseaux.</p>
+        <p>Actuellement en première année du portail Mathématiques-Informatique à l’Université de Lille, je consolide mes connaissances en algorithmique et en programmation tout en approfondissant mes compétences techniques en autonomie.</p>
+        <p>J’aime apprendre en construisant : concevoir une application, comprendre son fonctionnement côté serveur, manipuler les données et découvrir l’administration des environnements Linux.</p>
+        <div class="about-facts"><div><strong>01</strong><span>Apprentissage continu</span></div><div><strong>02</strong><span>Projets concrets</span></div><div><strong>03</strong><span>Culture systèmes & réseaux</span></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="competences">
+      <div class="section-heading"><p class="eyebrow">02 / COMPÉTENCES</p><h2>Des bases techniques<br><span class="gradient-text">en progression.</span></h2><p class="section-note">Je distingue les technologies déjà utilisées dans mes projets de celles que je suis en train d’approfondir.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Développement web</h3><p>Création d’applications et de sites web, intégration d’interfaces et logique côté serveur.</p><div class="chips"><span>HTML / CSS</span><span>JavaScript</span><span>Next.js</span><span>Laravel</span><span>Strapi</span></div></article>
+        <article class="skill-card"><div class="skill-icon">▣</div><h3>Systèmes & Linux</h3><p>Formation en administration système Linux : prise en main du terminal, commandes essentielles et découverte de l’administration d’un système.</p><div class="chips"><span>Linux</span><span>Terminal</span><span>Shell</span><span>Administration système</span></div><span class="learning-label">EN COURS D’APPRENTISSAGE</span></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Réseaux informatiques</h3><p>Connaissances acquises en cours CCNA et pratique de la simulation de réseaux.</p><div class="chips"><span>TCP/IP</span><span>Adressage IP</span><span>Packet Tracer</span><span>CCNA 1 & 2 — cours suivis</span></div></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Données & outils</h3><p>Manipulation de données et utilisation d’outils de développement dans le cadre de projets.</p><div class="chips"><span>SQL</span><span>Git / GitHub</span><span>Cloudinary</span><span>VS Code</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projets">
+      <div class="section-heading"><p class="eyebrow">03 / RÉALISATIONS</p><h2>Apprendre en <span class="gradient-text">faisant.</span></h2><p class="section-note">Quelques projets et travaux qui illustrent mon parcours technique.</p></div>
+      <div class="project-list">
+        <article class="project-card">
+          <div class="project-number">01</div><div class="project-main"><div class="project-topline"><span class="project-type">PLATEFORME WEB</span><span class="project-status">Projet personnel</span></div><h3>MonLocal</h3><p>Développement d’une plateforme de petites annonces pensée pour le marché guinéen et, à terme, l’Afrique de l’Ouest. Le projet m’a permis de travailler sur la structure d’une application web, la gestion des utilisateurs et des annonces ainsi que l’hébergement des médias.</p><div class="chips"><span>Next.js</span><span>Strapi</span><span>Cloudinary</span></div><a class="project-link" href="https://monlocalgn.com" target="_blank" rel="noreferrer">Voir le projet ↗</a></div><div class="project-visual visual-local"><span class="visual-symbol">ML</span><span>MONLOCAL</span><small>Marketplace · Web</small></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div><div class="project-main"><div class="project-topline"><span class="project-type">APPLICATION WEB</span><span class="project-status">Projet réalisé</span></div><h3>CleanAll</h3><p>Réalisation d’un site web pour un service de lavage automobile. Travail autour de l’application Laravel, de l’interface d’administration et de l’intégration d’un parcours de paiement Orange Money.</p><div class="chips"><span>Laravel</span><span>PHP</span><span>SQL</span><span>Orange Money</span></div><span class="project-link muted-link">Démonstration à venir</span></div><div class="project-visual visual-clean"><span class="visual-symbol">CA</span><span>CLEANALL</span><small>Car care · Web app</small></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div><div class="project-main"><div class="project-topline"><span class="project-type">RÉSEAUX</span><span class="project-status">Travaux pratiques</span></div><h3>Initiation aux réseaux — CCNA</h3><p>Suivi des enseignements CCNA 1 et CCNA 2 à l’université en Guinée, avec des travaux pratiques sur Cisco Packet Tracer. Ces cours m’ont permis de découvrir les fondamentaux des réseaux et leur configuration.</p><div class="chips"><span>Cisco Packet Tracer</span><span>Adressage IP</span><span>Réseaux</span></div><span class="project-link muted-link">Compte rendu à venir</span></div><div class="project-visual visual-network"><span class="visual-symbol">⌁</span><span>NETWORK LAB</span><small>Networking · Lab</small></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="parcours">
+      <div class="section-heading"><p class="eyebrow">04 / PARCOURS</p><h2>Formation & <span class="gradient-text">progression.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-date">2026 — Aujourd’hui</span><div><h3>Licence 1 — Portail Mathématiques-Informatique</h3><p>Université de Lille · France</p><p>Formation universitaire en mathématiques, algorithmique et informatique.</p></div></div>
+        <div class="timeline-item"><span class="timeline-date">En cours</span><div><h3>Administration système sous Linux</h3><p>Formation complémentaire en autonomie</p><p>Approfondissement progressif de l’environnement Linux et des notions d’administration système.</p></div></div>
+        <div class="timeline-item"><span class="timeline-date">Parcours antérieur</span><div><h3>Études en Génie informatique</h3><p>Université Nongo de Conakry · Guinée</p><p>Parcours universitaire en informatique, avec des enseignements en programmation et réseaux.</p></div></div>
+        <div class="timeline-item"><span class="timeline-date">Formation complémentaire</span><div><h3>Cisco CCNA 1 & CCNA 2 — cours suivis</h3><p>Enseignements universitaires et pratique sur Packet Tracer. Il s’agit de cours suivis, et non de certifications officielles obtenues.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <p class="eyebrow">05 / CONTACT</p><h2>Parlons de <span class="gradient-text">vos projets.</span></h2>
+      <p>Vous souhaitez échanger autour d’un projet, d’une opportunité ou de mon parcours ? Je serai ravi de discuter avec vous.</p>
+      <div class="contact-actions"><a class="button button-primary" href="mailto:VOTRE_EMAIL">M’envoyer un email ↗</a><a class="button button-secondary" href="https://github.com/VOTRE-PSEUDO" target="_blank" rel="noreferrer">Mon GitHub ↗</a><a class="button button-secondary" href="https://www.linkedin.com/in/VOTRE-PROFIL/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      <span class="contact-hint">Pense à remplacer les liens de contact par tes véritables coordonnées.</span>
+    </section>
+  </main>
+  <footer><a class="brand" href="#accueil"><span class="brand-mark">AN</span><span>Amadou Niane</span></a><span>Conçu avec curiosité et envie de progresser · 2026</span><a href="#accueil">Retour en haut ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
